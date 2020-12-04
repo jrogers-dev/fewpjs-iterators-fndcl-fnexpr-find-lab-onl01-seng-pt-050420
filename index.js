@@ -4,7 +4,7 @@ function testFunc() {
   return "hi";
 }
 
-function superBowlWin(records) {
+function superbowlWin(records) {
   return records.find(
     function(record) {
       if (record.result === "W") {
