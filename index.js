@@ -5,11 +5,13 @@ function testFunc() {
 }
 
 function superbowlWin(records) {
-  return records.find(
+  result = records.find(
     function(record) {
       if (record.result === "W") {
         return record;
       }  
     }
   );
+  console.log(result);
+  return result;
 }
