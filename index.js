@@ -11,5 +11,5 @@ function superbowlWin(records) {
     }
   );
   
-  return result ? result.year : result;
+  return (result ? result.year : result);
 }
