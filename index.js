@@ -10,6 +10,6 @@ function superbowlWin(records) {
       return record.result === "W";
     }
   );
-  console.log(result.year);
-  return result.year;
+  
+  result ? return result.year : return result;
 }
