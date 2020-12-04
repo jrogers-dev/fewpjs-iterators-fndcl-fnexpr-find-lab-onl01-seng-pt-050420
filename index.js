@@ -13,6 +13,6 @@ function superbowlWin(records) {
     }
   );
   console.log(result);
-  System.out.print(result);
+  print(result);
   return result;
 }
