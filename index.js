@@ -8,10 +8,10 @@ function superbowlWin(records) {
   let result = records.find(
     function(record) {
       if (record.result === "W") {
-        return record.result;
+        return record;
       }  
     }
   );
-  console.log(result);
-  return result;
+  console.log(result.year);
+  return result.year;
 }
